@@ -1,12 +1,12 @@
-import pyautogui
-import time
-import datetime
+import sys
+import math
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+message = input()
+
+num = message.count()
 
 
-time.sleep(5)
-
-for i in range(100):
-    x = datetime.datetime.now()
-    pyautogui.typewrite(x)
-    pyautogui.press("enter")
-    time.sleep(1)
+print(num)
